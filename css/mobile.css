@@ -6,6 +6,52 @@
         --black: #000000 !important;
         --khaki: #beb7a4;
         --amber: #FF7F11;
-        --black: #FF3F00;
+        --orange: #FF3F00;
     }
+
+    /* Navbar Responsiveness start*/
+    #navbar{
+        flex-direction: column;
+    }
+    
+    .logoSpan{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #navbar > .logoSpan > h3{
+        font-size: 1rem;
+    }
+
+    .logoSpan > img{
+        width: 30px;
+    }
+
+    #burger{
+        display: initial;
+    }
+
+    .listSpan{
+        display: none !important;
+        flex-direction: column;
+        transition: all 2s ease-in-out;
+    }
+
+    .listSpan > ul{
+        flex-direction: column;
+    }
+    
+    .listSpan > ul > li{
+        padding: 0.8rem 0 !important;
+    }
+
+    li a, #contactno{
+        font-size: 0.9rem;
+    }
+
+    .listSpan.active{
+        display: flex !important;
+    }
+    /* Navbar Responsiveness end*/
+
 }

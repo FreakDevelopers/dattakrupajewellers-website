@@ -15,16 +15,19 @@
 <body>
     <div class="container">
         <nav id="navbar">
-            <span class="logoSpan">
-                <img src="/assets/logo.png" alt="Dattkrupa Jewellers" width="50px" >
-                <h3>Dattkrupa Jewellers</h3>
-            </span>
-            <span class="listSpan">
+            <a class="logoSpan">
+                <div style="display: flex; align-items: center;">
+                    <img src="/assets/logo.png" alt="Dattkrupa Jewellers" width="50px" >
+                    <h3>Dattkrupa Jewellers</h3>
+                </div>
+                <i class="fa-solid fa-bars" id="burger" onclick="collapse()"></i>
+            </a>
+            <span  id="listSpan" class="listSpan">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li id="home"><a href="">Home</a></li>
+                    <li id="about"><a href="">About</a></li>
+                    <li id="services"><a href="">Services</a></li>
+                    <li id="contact"><a href="">Contact</a></li>
                 </ul>
                 <div class="icons">
                     <i class="fa-solid fa-phone" id="phoneIcon"></i>
@@ -35,5 +38,8 @@
         <div class="">
         </div>
     </div>
+
+    <!-- JS Import -->
+    <script src="/js/index.js"></script>
 </body>
 </html>

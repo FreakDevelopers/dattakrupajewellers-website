@@ -19,7 +19,7 @@ body{
     --black: #000000 !important;
     --khaki: #beb7a4;
     --amber: #FF7F11;
-    --black: #FF3F00;
+    --orange: #FF3F00;
 }
 
 /* Navbar Style start */
@@ -35,11 +35,12 @@ body{
 #navbar > .logoSpan{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-#navbar > .logoSpan > h3{
+#navbar > .logoSpan > div > h3{
     color: var(--black);
-    margin-left: 0.4rem;
+    margin-left: 0.8rem;
 }
 
 #navbar > .listSpan{
@@ -54,6 +55,7 @@ body{
 #navbar > .listSpan > ul > li{
     margin: 0 1.5rem;
     list-style: none;
+    padding: 1rem 0;
 } 
 
 li a{
@@ -61,6 +63,10 @@ li a{
     color: var(--black);
     font-size: 1rem;
     font-weight: bold;
+}
+
+li > a:hover{
+    color: var(--amber);
 }
 
 .icons{
@@ -74,16 +80,19 @@ li a{
     font-size: 1.2rem;
 }
 
-li > a:hover{
-    color: var(--amber);
-}
-
 #phoneIcon{
     color: green;
 }
 
 #contactno{
     color: var(--black);
+    font-size: 1rem;
+}
+
+#burger{
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
 }
 
 /* Navbar Style end */
