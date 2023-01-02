@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,34 +13,104 @@
     <!-- FontAwesome CDN -->
     <script src="https://kit.fontawesome.com/9134bafd0e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <nav id="navbar">
-            <a class="logoSpan">
-                <div style="display: flex; align-items: center;">
-                    <img src="/assets/logo.png" alt="Dattkrupa Jewellers" width="50px" >
-                    <h3>Dattkrupa Jewellers</h3>
+    <nav id="navbar">
+        <a class="logoSpan">
+            <div style="display: flex; align-items: center;">
+                <img src="/assets/logo.png" alt="Dattkrupa Jewellers" width="50px">
+                <h3>Dattakrupa Jewellers</h3>
+            </div>
+            <i class="fa-solid fa-bars" id="burger" onclick="collapse()"></i>
+        </a>
+        <span id="listSpan" class="listSpan">
+            <ul>
+                <li id="home"><a href="">Home</a></li>
+                <li id="about"><a href="">About</a></li>
+                <li id="services"><a href="">Services</a></li>
+                <li id="contact"><a href="">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class="fa-solid fa-phone" id="phoneIcon"></i>
+                <span id="contactno">+91 1234567890</span>
+            </div>
+        </span>
+    </nav>
+    <section class="section bg-grey">
+        <h1>Welcome to Dattakrupa Jewellers</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt ut excepturi fuga dicta enim, animi
+            mollitia. Libero, quidem accusantium iste ex, voluptas, sint excepturi illo iure suscipit commodi
+            dignissimos.
+        </p>
+    </section>
+    <section class="section bg-grey">
+        <h1>Welcome to Dattakrupa Jewellers</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt ut excepturi fuga dicta enim, animi
+            mollitia. Libero, quidem accusantium iste ex, voluptas, sint excepturi illo iure suscipit commodi
+            dignissimos.
+        </p>
+    </section>
+
+    <!-- Footer start -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <h2>Dattakrupa Jewellers</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia cum nam vel fugit sint
+                    possimus quibusdam autem tempore illo temporibus obcaecati eveniet ea aliquid aut hic eius, vitae
+                    velit?
+                </p>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
-                <i class="fa-solid fa-bars" id="burger" onclick="collapse()"></i>
-            </a>
-            <span  id="listSpan" class="listSpan">
-                <ul>
-                    <li id="home"><a href="">Home</a></li>
-                    <li id="about"><a href="">About</a></li>
-                    <li id="services"><a href="">Services</a></li>
-                    <li id="contact"><a href="">Contact</a></li>
-                </ul>
-                <div class="icons">
-                    <i class="fa-solid fa-phone" id="phoneIcon"></i>
-                    <span id="contactno">+91 1234567890</span>
-                </div>
-            </span>
-        </nav>
-        <div class="">
+            </div>
+
+            <div class="footer-box">
+                <h4>CUSTOMER SERVICES</h4>
+                <a href="">Company Profile</a>
+                <a href="">Legacy</a>
+                <a href="">Vision, Mission & Values</a>
+                <a href="">Management</a>
+                <a href="">Blog</a>
+                <a href="">Terms of Service</a>
+                <a href="">Refund policy</a>
+            </div>
+            <div class="footer-box">
+                <h4>ABOUT US</h4>
+                <a href="">Terms & Conditions</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Shipping Policy</a>
+                <a href="">Payment Options</a>
+                <a href="">FAQ's</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="footer-box">
+                <h4>CATALOG</h4>
+                <a href="">Earrings</a>
+                <a href="">Pendants</a>
+                <a href="">Chains</a>
+                <a href="">Necklace Set</a>
+                <a href="">Bangles</a>
+                <a href="">Rings</a>
+                <a href="">Bracelets</a>
+            </div>
+
         </div>
-    </div>
+        <div class="copyright">
+            Copyright © 2023 . Designed & Developed by <b>FreakDevelopers</b>
+        </div>
+    </footer>
+    <!-- Footer end -->
 
     <!-- JS Import -->
     <script src="/js/index.js"></script>
 </body>
+
 </html>

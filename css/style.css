@@ -1,20 +1,19 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* Reset CSS */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    /* background-color: #BEB7A4; */
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
 /* Variables */
-:root{
+:root {
     --white: #fffffc;
     --black: #000000 !important;
     --khaki: #beb7a4;
@@ -23,76 +22,192 @@ body{
 }
 
 /* Navbar Style start */
-#navbar{
+#navbar {
     background-color: var(--white);
     display: flex;
+    position: sticky;
+    top: 0;
     align-items: center;
     padding: 0.7rem 1rem;
     justify-content: space-between;
     box-shadow: 0px 0px 10px 0px;
 }
 
-#navbar > .logoSpan{
+#navbar>.logoSpan {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-#navbar > .logoSpan > div > h3{
+#navbar>.logoSpan>div>h3 {
     color: var(--black);
     margin-left: 0.8rem;
 }
 
-#navbar > .listSpan{
+#navbar>.listSpan {
     display: flex;
 }
 
-#navbar > .listSpan > ul{
+#navbar>.listSpan>ul {
     display: flex;
     align-items: center;
 }
 
-#navbar > .listSpan > ul > li{
+#navbar>.listSpan>ul>li {
     margin: 0 1.5rem;
     list-style: none;
     padding: 1rem 0;
-} 
+}
 
-li a{
+li a {
     text-decoration: none;
     color: var(--black);
     font-size: 1rem;
     font-weight: bold;
 }
 
-li > a:hover{
+li>a:hover {
     color: var(--amber);
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
 }
 
-.icons i{
+.icons i {
     margin: 0 0.5rem;
     color: var(--black);
     font-size: 1.2rem;
 }
 
-#phoneIcon{
+#phoneIcon {
     color: green;
 }
 
-#contactno{
+#contactno {
     color: var(--black);
     font-size: 1rem;
 }
 
-#burger{
+#burger {
     font-size: 1.2rem;
     cursor: pointer;
     display: none;
 }
 
 /* Navbar Style end */
+
+/* Section Style Start */
+.section {
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+}
+
+.section>h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.section>p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.bg-khaki {
+    background-color: var(--khaki) !important;
+}
+
+.bg-grey {
+    background-color: whitesmoke !important;
+}
+
+.bg-gold {
+    background-color: goldenrod !important;
+}
+
+/* Section Style End */
+
+/* Footer Style start */
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--black);
+    font-family: Lato;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.footer-logo {
+    width: 100%;
+    padding: 3rem 3rem 0rem 6rem;
+    color: var(--khaki);
+}
+
+.footer-logo>h2 {
+    padding-bottom: 1rem;
+    color: var(--white);
+}
+
+.footer-logo>.socials{
+    display: flex;
+    padding: 1rem 0;
+}
+
+.footer-logo>.socials>a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-logo>.socials>a>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.4rem 0 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+.footer-logo>.socials>a:hover{
+    color: blue;
+}
+
+.footer-box {
+    display: flex;
+    padding: 3rem 0rem;
+    flex-direction: column;
+    color: var(--khaki);
+}
+
+.footer-box>h4 {
+    padding-bottom: 1rem;
+}
+
+.footer-box>a {
+    text-decoration: none;
+    line-height: 1.5rem;
+    color: #4e4e4e;
+}
+
+.footer-box>a:hover{
+    color: var(--amber);
+}
+
+.copyright {
+    text-align: center;
+    padding: 2rem 3rem;
+    color: var(--khaki);
+}
+
+/* Footer Style end */
