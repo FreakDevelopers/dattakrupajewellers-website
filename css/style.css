@@ -16,7 +16,9 @@ body {
 :root {
     --white: #fffffc;
     --black: #000000 !important;
+    --grey: #808080;
     --khaki: #beb7a4;
+    --gold: #FFD700;
     --amber: #FF7F11;
     --orange: #FF3F00;
 }
@@ -31,6 +33,7 @@ body {
     padding: 0.7rem 1rem;
     justify-content: space-between;
     box-shadow: 0px 0px 10px 0px;
+    z-index: 999;
 }
 
 #navbar>.logoSpan {
@@ -158,7 +161,7 @@ footer>.footer-container>.footer-logo>h2 {
     color: var(--white);
 }
 
-footer>.footer-container>.footer-logo>p{
+footer>.footer-container>.footer-logo>p {
     line-height: 1.5rem;
     text-align: justify;
     padding-right: 1rem;
@@ -176,7 +179,7 @@ footer>.footer-container>.footer-logo>p{
     color: #ffffff;
 }
 
-.footer-logo>.socials>a>i:hover{
+.footer-logo>.socials>a>i:hover {
     background-color: rgb(255, 255, 255);
 }
 
@@ -188,13 +191,14 @@ footer>.footer-container>.footer-logo>p{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgb(255, 255, 255,0.2);
+    background-color: rgb(255, 255, 255, 0.2);
     transition: all 0.3s ease;
 }
 
 .footer-logo>.socials>a:hover {
     color: #000000;
 }
+
 /* Socials end */
 
 .footer-box {
@@ -208,9 +212,9 @@ footer>.footer-container>.footer-logo>p{
     padding-bottom: 0.3rem;
 }
 
-.footer-box>.underline{
+.footer-box>.underline {
     height: 2px;
-    background-color: red;
+    background-color: var(--gold);
     margin-bottom: 1rem;
 }
 
@@ -232,13 +236,36 @@ footer>.footer-container>.footer-logo>p{
     color: var(--khaki);
 }
 
-.copyright>p>a{
+.copyright>p>a {
     text-decoration: none;
     color: white;
     transition: all 0.5s ease;
 
 }
-.copyright>p>a:hover{
-    color: #FFD700;
+
+.copyright>p>a:hover {
+    color: var(--gold);
 }
+
 /* Footer Style end */
+
+/* Slider start */
+.slick-prev{
+    width: 2vw!important;
+    height: 4vh!important;
+    left: 20px;
+    z-index: 2!important;
+}
+.slick-next{
+    width: 2vw!important;
+    height: 4vh!important;
+    right: 20px;
+    z-index: 2!important;
+}
+.slick-prev::before{
+    font-size: 2rem!important;
+}
+.slick-next::before{
+    font-size: 2rem!important;
+}
+/* Slider end */
