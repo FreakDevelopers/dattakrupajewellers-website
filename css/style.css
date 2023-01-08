@@ -147,28 +147,40 @@ footer {
     width: 100%;
 }
 
-.footer-logo {
+footer>.footer-container>.footer-logo {
     width: 100%;
     padding: 3rem 3rem 0rem 6rem;
     color: var(--khaki);
 }
 
-.footer-logo>h2 {
+footer>.footer-container>.footer-logo>h2 {
     padding-bottom: 1rem;
     color: var(--white);
 }
 
-.footer-logo>.socials{
+footer>.footer-container>.footer-logo>p{
+    line-height: 1.5rem;
+    text-align: justify;
+    padding-right: 1rem;
+}
+
+/* Socials start */
+.footer-logo>.socials {
     display: flex;
-    padding: 1rem 0;
+    margin-top: 15px;
+    /* padding-top: 1.5rem; */
 }
 
-.footer-logo>.socials>a{
+.footer-logo>.socials>a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
 
-.footer-logo>.socials>a>i{
+.footer-logo>.socials>a>i:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-logo>.socials>a>i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,32 +188,42 @@ footer {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255,0.2);
+    transition: all 0.3s ease;
 }
 
-.footer-logo>.socials>a:hover{
-    color: blue;
+.footer-logo>.socials>a:hover {
+    color: #000000;
 }
+/* Socials end */
 
 .footer-box {
     display: flex;
-    padding: 3rem 0rem;
+    padding-top: 3rem;
     flex-direction: column;
-    color: var(--khaki);
+    color: var(--white);
 }
 
 .footer-box>h4 {
-    padding-bottom: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.footer-box>.underline{
+    height: 2px;
+    background-color: red;
+    margin-bottom: 1rem;
 }
 
 .footer-box>a {
     text-decoration: none;
-    line-height: 1.5rem;
-    color: #4e4e4e;
+    line-height: 2rem;
+    color: grey;
+    transition: all 0.5s ease;
 }
 
-.footer-box>a:hover{
-    color: var(--amber);
+.footer-box>a:hover {
+    color: var(--white);
+    padding-left: 8px;
 }
 
 .copyright {
@@ -210,4 +232,13 @@ footer {
     color: var(--khaki);
 }
 
+.copyright>p>a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+
+}
+.copyright>p>a:hover{
+    color: #FFD700;
+}
 /* Footer Style end */
