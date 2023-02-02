@@ -977,7 +977,7 @@ ul {
   font-weight: 400;
 }
 
-.product_hover {
+/*.product_hover {
   position: absolute;
   top: 50%;
   z-index: 9;
@@ -995,13 +995,13 @@ ul {
   visibility: visible;
 }
 
-.product_black_section .product_hover {
+/*.product_black_section .product_hover {
   background: #242424;
   left: -17px;
   width: 117%;
-}
+}*/
 
-.product_ratings {
+/*.product_ratings {
   margin-bottom: 6px;
 }
 
@@ -1011,7 +1011,7 @@ ul {
 
 .product_ratings ul li a {
   color: #a8741a;
-}
+}*/
 
 .product_desc {
   margin-bottom: 15px;
