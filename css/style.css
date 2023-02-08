@@ -590,7 +590,7 @@ ul {
   margin-bottom: 70px;
 }
 .banner_black {
-  border-bottom: 1px solid #2d2d2d;
+  border-bottom: 1px solid #ffffff;
 }
 
 .banner_black .banner_content {
@@ -705,7 +705,7 @@ ul {
 
 .product_black_section .product_tab_button ul.nav li a {
   border-left: 2px solid #2d2d2d;
-  color: #ffffff;
+  color: #000000;
   font-family: "Baloo 2", serif;
 }
 
@@ -834,7 +834,7 @@ ul {
 .single_product:hover {
   background: #fff;
   border-radius: 3px;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 15px 0px rgba(83, 83, 83, 0.3);
 }
 
 .single_product:hover .product_hover {
@@ -851,7 +851,7 @@ ul {
 }
 
 .product_black_section .single_product:hover {
-  background: #242424;
+  background: #c6cac871;
 }
 
 .product_thumb {
@@ -941,7 +941,7 @@ ul {
 }
 
 .product_content h3 a {
-  color: #ffffff;
+  color: #000000;
 }
 .product_content h3 a:hover {
   color: #a8741a;
@@ -1179,7 +1179,7 @@ ul {
   background: inherit;
   font-size: 15px;
   background: transparent;
-  color: #a0a0a0;
+  color: #8f8d8d;
 }
 
 .product_container.bottom button:hover {
@@ -1191,7 +1191,7 @@ ul {
 }
 
 .product_black_section.bottom {
-  border-bottom: 1px solid #2d2d2d;
+  border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
   margin-bottom: 80px;
 }
@@ -1203,7 +1203,7 @@ ul {
 .section_title::before {
   content: "";
   height: 2px;
-  background: #2d2d2d;
+  background: #fcf8f8;
   position: absolute;
   left: 0;
   right: 15px;
@@ -1217,8 +1217,8 @@ ul {
   line-height: 30px;
   text-transform: capitalize;
   padding-right: 20px;
-  background: #242424;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-weight: 400;
 }
@@ -1246,13 +1246,13 @@ ul {
 }
 
 .blog_black .section_title h2 {
-  color: #ffffff;
-  background: #242424;
+  color: #000000;
+  background: #ffffff;
   font-weight: 400;
 }
 
 .blog_black .blog_wrapper .owl-nav {
-  background: #242424;
+  background: #ffffff;
 }
 
 .blog_black .blog_wrapper .owl-nav div {
