@@ -724,12 +724,14 @@ ul {
 .product_tab_button {
   margin-bottom: 35px;
   text-align: center;
+  
 }
 
 .product_tab_button ul {
   justify-content: center;
   margin: 0 auto;
   border: 2px solid #ebebeb;
+  background-color: #fae9e9ea;
 }
 
 .product_tab_button ul.nav {
@@ -759,6 +761,7 @@ ul {
 
 .product_tab_button ul li {
   display: inline-block;
+ 
 }
 
 .product_tab_button ul li:first-child a {
@@ -861,6 +864,7 @@ ul {
   margin-bottom: 8px;
 }
 
+
 .product_thumb a.secondary_img {
   position: absolute;
   top: 0;
@@ -959,7 +963,7 @@ ul {
   margin-bottom: 10px;
 }
 .product_black_section .tag_cate a {
-  color: #a0a0a0;
+  color: #290d5e;
   font-size: 13px;
 }
 .product_black_section .tag_cate a:hover {
