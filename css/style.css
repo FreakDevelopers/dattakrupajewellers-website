@@ -1,0 +1,86 @@
+/* fonts */
+@font-face {
+    font-family: "muli-regular";
+    src: url("/assets/fonts/muli/Muli-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "muli-italic";
+    src: url("/assets/fonts/muli/Muli-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "muli-light";
+    src: url("/assets/fonts/muli/Muli-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "muli-light-italic";
+    src: url("/assets/fonts/muli/Muli-LightItalic.ttf") format("truetype");
+}
+
+:root {
+    --primary-dark-purple: #231535;
+    --secondary-dark-purple: #4F3267;
+    --borders: #723890;
+    --bg-header: #4f3267;
+    --link: #b06a7f;
+    --bnt-gradient1: #dc58e6;
+    --bnt-gradient2: #8e62f9;
+    --bg-footer: #f6eff6;
+    --text-color: #b37791;
+    --bg-primary: #f9f9fa;
+}
+
+/* navbar styling */
+.navbar {
+    background-color: var(--bg-header);
+}
+
+.nav-link {
+    color: white;
+    font-family: muli-regular;
+}
+
+.nav-link.active {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--bnt-gradient1);
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+.searchBtn:hover {
+    border-color: var(--bnt-gradient1);
+    color: white;
+}
+
+.searchBtn {
+    background-color: var(--primary-dark-purple);
+    color: white;
+    border: 1px solid var(--borders);
+}
+
+.searchInput:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border-color: var(--borders);
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+}
+
+/* .navbar-toggler-icon{
+    color: white !important;
+} */
+
+.menu-list {
+    text-align: center;
+}
