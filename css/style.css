@@ -35,7 +35,8 @@
 /* navbar styling */
 .navbar {
     background-color: var(--bg-header);
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 4px gray;
+    padding: 0;
 }
 
 .nav-link {
@@ -78,7 +79,7 @@
     box-shadow: none;
 }
 
-.navbar .navbar-toggler-icon{
+.navbar .navbar-toggler-icon {
     background-image: url();
 }
 
@@ -86,26 +87,27 @@
     text-align: center;
 }
 
-.bi-list{
+.bi-list {
     color: white;
 }
 
 /* styling for less than 992px */
 @media (max-width: 992px) {
-    .nav-item{
+    .nav-item {
         padding: 0;
     }
 
-    .searchInput{
-        margin-left: 0!important;
+    .searchInput {
+        margin-left: 0 !important;
     }
 
-    .searchControl{
+    .searchControl {
         flex-direction: column;
         align-items: center;
     }
 
-    .searchBtn{
-        margin-top: 0.6rem;
+    .searchBtn {
+        margin: 0.6rem 0;
     }
 }
+
