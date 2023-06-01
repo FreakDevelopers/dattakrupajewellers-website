@@ -92,7 +92,7 @@
     color: white;
 }
 
-.jewelry-menu{
+.jewelry-menu {
     height: 2.5rem;
     background-color: var(--borders);
     position: sticky;
@@ -100,51 +100,62 @@
     z-index: 1011;
 }
 
-.jewelry-list{
+.jewelry-list {
     margin: 0;
     padding: 0;
 }
 
-.jewelry-item{
+.jewelry-item {
     font-size: 0.9rem;
     list-style: none;
     margin: 0 2rem;
 }
 
-.jewelry-item a{
+.jewelry-item a {
     text-decoration: none;
     color: wheat;
     transition: .5s ease-in-out;
 }
 
-.jewelry-item a:hover{
+.jewelry-item a:hover {
     color: white;
     opacity: 0.8;
 }
 
-.footer-all{
+.footer-all {
     background-color: var(--bg-footer);
 }
 
-.social-links li{
+.social-links li {
     cursor: pointer;
 }
 
-.social-links li:hover{
+.social-links li:hover {
     color: var(--bnt-gradient1);
 }
 
-.section-list li{
+.section-list li {
     padding-left: 0 !important;
     transition: .3s ease-in-out;
     margin: 0.8rem 0;
 }
 
-.section-list li:hover{
+.section-list li:hover {
     transform: translate(10px);
     color: #dc58e6 !important;
     text-shadow: #dc58e6;
 }
+
+.sub-header-collapse{
+    display: none;
+}
+
+.sub-header-icon{
+    color: burlywood;
+}
+
+/* Multi-carousel */
+
 
 /* styling for less than 992px */
 @media (max-width: 992px) {
@@ -165,8 +176,41 @@
         margin: 0.6rem 0;
     }
 
-    .jewelry-item{
+    .jewelry-item {
         font-size: 0.7rem;
+    }
+
+    .sub-header-collapse{
+        display: initial;
+    }
+
+    .sub-menu-div{
+        justify-content: flex-start !important;
+        position: relative;
+        left: 1rem;
     }
 }
 
+/* Mobile Breakpoint */
+@media (min-width: 576px) and (max-width: 768px) {
+    .jewelry-item {
+        margin: 1rem;
+    }
+
+    .footer-all{
+        font-size: 0.8rem;
+    }
+    }
+}
+
+@media (max-width: 576px){
+    .jewelry-item{
+        margin: 0.4rem;
+        font-size: 0.67rem;
+    }
+
+    /* .sub-header-collapse{
+        position: absolute;
+        left: 1.5rem;
+    } */
+}
