@@ -49,6 +49,10 @@
         font-size: 0.67rem;
     }
 
+    .text-small{
+        font-size: 0.8rem;
+    }
+
     /* .sub-header-collapse{
         position: absolute;
         left: 1.5rem;

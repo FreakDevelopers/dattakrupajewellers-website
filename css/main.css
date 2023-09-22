@@ -1,0 +1,70 @@
+/* fonts */
+@font-face {
+  font-family: "muli-regular";
+  src: url("/assets/fonts/muli/Muli-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "muli-italic";
+  src: url("/assets/fonts/muli/Muli-Italic.ttf") format("truetype"); }
+@font-face {
+  font-family: "muli-light";
+  src: url("/assets/fonts/muli/Muli-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "muli-light-italic";
+  src: url("/assets/fonts/muli/Muli-LightItalic.ttf") format("truetype"); }
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0; }
+
+a,
+a:hover {
+  text-decoration: none; }
+
+.top-header {
+  background-color: #484848;
+  color: white; }
+
+.bg-header {
+  background: #080808; }
+
+.text-primary {
+  color: #ffffffe2; }
+
+.btn-first {
+  border-radius: 4%;
+  border: 2px solid var(--btn-borders);
+  padding: 0.4rem 1.4rem; }
+  .btn-first:hover {
+    color: var(--btn-borders); }
+
+.footer-all {
+  background-color: var(--bg-footer); }
+  .footer-all h5 {
+    color: #f6f4ff; }
+
+.social-links li {
+  align-items: center;
+  background-color: #212529;
+  border-radius: 15%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.4rem 0.7rem; }
+  .social-links li:hover {
+    background-color: white; }
+  .social-links li .bi-whatsapp {
+    color: #25d366; }
+  .social-links li .bi-instagram {
+    color: #e4405f; }
+  .social-links li .bi-twitter {
+    color: #1a98e8; }
+
+/*# sourceMappingURL=main.css.map */
